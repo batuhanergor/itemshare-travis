@@ -1,0 +1,42 @@
+$back-button: #0277bd;
+$navbar-color: rgb(223, 236, 245);
+
+.page-container {
+  margin-top: 2em;
+
+  .product-card {
+    margin-top: 5em;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    .product-media {
+      padding-top: 25%;
+      padding-bottom: 25%;
+      justify-content: center;
+      width: 20em;
+      height: 10em;
+      background-color: #eeeeee;
+    }
+
+    .card-content {
+      //box-shadow: 0px -2px 16px -8px rgba(0, 0, 0, 0.75);
+      // background-color: $navbar-color;
+      box-shadow: 0px -2px 10px -8px rgba(0,0,0,0.75);
+
+      height: 100%; // fixes cut off text
+    }
+
+    .price-text {
+      float: right;
+      font-size: 2vmax;
+      //justify-content: right;
+      // margin-right: 0.5%;
+    }
+  }
+
+  .back-button {
+    background-color: $back-button;
+    color: white;
+  }
+}

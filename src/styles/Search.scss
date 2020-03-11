@@ -1,0 +1,88 @@
+.root {
+  padding: 2px 4px;
+  display: flex;
+  align-content: center;
+  width: 80%;
+  margin-bottom: 25px;
+}
+.input {
+  // margin-left: theme.spacing(1);
+  flex: 1;
+  border-color: lightpink;
+}
+.iconButton {
+  padding: 10;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.myText {
+  width: auto;
+  display: inline-block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  border-right: 0.15em solid transparent;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 4s steps(60, end), blink-caret 0.75s step-end;
+}
+
+.searchbar {
+  display: block;
+  text-align: center;
+  padding: 0.5em;
+}
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  justify-content: center;
+  align-content: center;
+  margin: 2%;
+  border-radius: 50%;
+}
+.buttons .camera {
+  background-color: lightpink;
+}
+.buttons .clothing {
+  background-color: lightgreen;
+}
+
+.buttons .bike {
+  background-color: paleturquoise;
+}
+
+.buttons .textbooks {
+  background-color: rgb(245, 245, 151);
+}
+.buttons .school-supplies {
+  background-color: rgb(151, 231, 245);
+}
+
+.buttons button img {
+  justify-content: center;
+  align-content: center;
+  width: 40px;
+  height: 40px;
+}
