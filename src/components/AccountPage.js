@@ -39,7 +39,7 @@ const AccountPage = ({ allItems }) => {
       {myItems.map(item => (
         <div key={item.id}>
           <p>{item.name}</p>
-          <img src={item.img} alt="try123" style={{ width: "100px" }}></img>
+          <img src={item.img} style={{ width: "100px" }}></img>
           Unavailable
           <Switch
             onChange={() => handleAvailability(item)}
