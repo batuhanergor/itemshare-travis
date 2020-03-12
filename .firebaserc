@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "itemshare-94837"
+    "default": "itemshare-94837",
+    "ci": "travis-itemshare-e2e93"
   }
 }
