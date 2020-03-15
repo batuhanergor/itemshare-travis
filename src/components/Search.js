@@ -34,9 +34,7 @@ const Search = ({ searchQuery }) => {
   const handleEnter = e => {
     if (e.keyCode === 13) history.push(searchTerm);
   };
-  test("", () => {
-    
-  });
+
 
   return (
     <div className="searchbar">
