@@ -37,7 +37,7 @@ const Search = ({ searchQuery }) => {
   return (
     <div className="searchbar">
       <b>
-        <p className="myText">
+        <p className="myText" data-cy="landing">
           itemShare. Northwestern&apos;s premier rental marketplace.
         </p>
       </b>
