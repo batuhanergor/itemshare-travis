@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { render } from "@testing-library/react";
 import { Link, useHistory } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import Paper from "@material-ui/core/Paper";
@@ -33,6 +34,9 @@ const Search = ({ searchQuery }) => {
   const handleEnter = e => {
     if (e.keyCode === 13) history.push(searchTerm);
   };
+  test("", () => {
+    
+  });
 
   return (
     <div className="searchbar">
