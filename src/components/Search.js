@@ -46,6 +46,7 @@ const Search = ({ searchQuery }) => {
           <InputBase
             className="input"
             placeholder="Search for items"
+            inputProps={{ "data-testid": "search-input" }}
             value={currTerm}
             onChange={changeCurrTerm}
             onKeyDown={handleEnter}
